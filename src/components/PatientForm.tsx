@@ -32,6 +32,7 @@ export default function PatientForm() {
       toast.success("Paciente Actualizado",  {
         autoClose: 3000
     })
+    reset()
     } else {
       addPatient(data)
       toast.success("Paciente Agregado", {
